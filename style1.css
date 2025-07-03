@@ -1,0 +1,56 @@
+body {
+    background-color:#aaffdf;
+}
+/*  input{
+    padding:10px 2px 10px 2px;
+    margin:10px 20px 15px 2px;
+    border:6px solid #e300ff; */
+.none{
+    border:3px none magenta;
+    width:300px;
+    padding:20px;
+    border-radius:20px;
+}
+.solid{
+    border:3px solid magenta;
+    width:220px;
+    padding:20px;
+    border-radius:20px;
+}
+.dot{
+    border:3px dotted magenta;
+    width:260px;
+    padding:20px;
+    border-radius:20px;
+}
+.dash{
+    border:3px dashed magenta;
+    width:240px;
+    padding:20px;
+    border-radius:20px;
+}
+.double{
+    border:3px double magenta;
+    width:280px;
+    padding:20px;
+    border-radius:20px;
+}
+form{
+    border:2px solid magenta;
+    border-radius:20px;    
+}
+label{
+    padding:10px 20px 10px 30px;
+    margin-left:50px; 
+}
+select{
+    padding:10px;
+    margin-left:60px;
+    border-radius:10px;
+}
+button{
+    padding:10px 20px 10px 30px;
+    margin-left:250px;
+    border-radius:10px;
+img{
+    border-radius:50;   

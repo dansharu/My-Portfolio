@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Color Button</title>
+  <link rel="stylesheet" href="JV.css">
+</head>
+<center>
+<body>
+  <div class="container">
+    <h1>Click the Button!</h1>
+
+    <button id="colorButton">Change My Color</button>
+  </div>
+
+  <script>
+    const button = document.getElementById('colorButton');
+
+    button.addEventListener('click', () => {
+      const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6'];
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      button.style.backgroundColor = randomColor;
+    });
+  </script>
+</body>
+</center>
+</html>
